@@ -20,9 +20,9 @@ Details
 * In case of a conflict making a team decision, we will follow the following procedure: A simple majority vote will be taken with the whole team. In the case of a tie, the Project Manager will have the deciding vote.
 * Team Roles:
     * Mike: Project Manager
-    * Andrew:
-    * Macauley:
-    * Ben:
+    * Andrew: Application Developer
+    * Macauley: UI/UX Design
+    * Ben: Application Developer
 * Tasks will be assigned and tracked using the GitHub project page. We will send team-wide emails as necessary.
 * The team will meet in person once a week at a time and location that will be specified by the Project Manager. Additional meetings of a subset of the team may be called and agreed upon as necessary.
 * Each team member will submit evaluations of the other team members independently.
