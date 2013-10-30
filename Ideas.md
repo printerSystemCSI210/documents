@@ -1,0 +1,1 @@
+-Heroku has a email plugin, which could be used for a notification system
