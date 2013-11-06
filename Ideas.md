@@ -1,1 +1,3 @@
 -Heroku has a email plugin, which could be used for a notification system
+-Add color printer support
+	-there is one in the NASA lab
