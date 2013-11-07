@@ -15,10 +15,9 @@ html = urllib.request.urlopen(url).read().decode("utf8")
 for c in range( 0, len(html)-7 ):
 	# Find "Tray 2"
 	if html[c:c+6]=="Tray 2":
-		# html[c+163] will be the first letter of the status of the printer 
-		if html[c+163]=='O':	# if the first letter is an "O", the status is "OK"
-			print("Tray 2: OK")
-		elif html[c+163]=="E":	# if the first letter is an "E", the status is "Empty"
-			print("Tray 2: Empty")
-
-		break # Finished parsing, exit
+		# Find the status of Tray 2
+		for x in range(c,c+200):
+			if html[x:x+2]=="OK":
+				print("Tray 2: OK")
+			elif html[x:x+5]=="Empty":	# if the first letter is an "E", the status is "Empty"
+				print("Tray 2: Empty")
