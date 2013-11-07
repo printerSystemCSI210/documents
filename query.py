@@ -1,3 +1,7 @@
+# Michael Borowsky
+# 11/7/13
+# Proof of Concept- get a printer's html page and parse it for information
+
 import urllib.request
 import re
 
